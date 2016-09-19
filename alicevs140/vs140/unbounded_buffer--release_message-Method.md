@@ -1,0 +1,41 @@
+---
+title: "unbounded_buffer::release_message Method"
+ms.custom: na
+ms.date: 09/19/2016
+ms.devlang: 
+  - C++
+ms.prod: visual-studio-dev14
+ms.reviewer: na
+ms.suite: na
+ms.technology: 
+  - devlang-cpp
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.assetid: aa228004-4eb6-42d4-922c-95569509b8ae
+caps.latest.revision: 18
+translation.priority.ht: 
+  - de-de
+  - ja-jp
+---
+# unbounded_buffer::release_message Method
+Releases a previous message reservation.  
+  
+## Syntax  
+  
+```  
+virtual void release_message(  
+   runtime_object_identity _MsgId  
+);  
+```  
+  
+#### Parameters  
+ `_MsgId`  
+ The `runtime_object_identity` of the `message` object being released.  
+  
+## Requirements  
+ **Header:** agents.h  
+  
+ **Namespace:** concurrency  
+  
+## See Also  
+ [unbounded_buffer Class](../vs140/unbounded_buffer-Class.md)

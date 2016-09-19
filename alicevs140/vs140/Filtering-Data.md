@@ -1,0 +1,27 @@
+---
+title: "Filtering Data"
+ms.custom: na
+ms.date: 09/19/2016
+ms.devlang: 
+  - VB
+  - CSharp
+ms.prod: visual-studio-dev14
+ms.reviewer: na
+ms.suite: na
+ms.technology: 
+  - devlang-csharp
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.assetid: cee88d0f-31aa-4c60-9452-cc122ed0057d
+caps.latest.revision: 19
+robots: noindex,nofollow
+translation.priority.ht: 
+  - de-de
+  - ja-jp
+---
+# Filtering Data
+Visual Basic and C# share many common concepts, but with often subtle differences. Where previous versions of the documentation presented shared concepts in topics that covered both languages, the current documentation presents each language in it's own topic.  
+  
+-   [Filtering Data (Visual Basic)](../Topic/Filtering%20Data%20\(Visual%20Basic\).md)  
+  
+-   [Filtering Data (C#)](../Topic/Filtering%20Data%20\(C%23\).md)

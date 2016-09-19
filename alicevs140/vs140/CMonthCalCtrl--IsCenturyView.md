@@ -1,0 +1,47 @@
+---
+title: "CMonthCalCtrl::IsCenturyView"
+ms.custom: na
+ms.date: 09/19/2016
+ms.devlang: 
+  - C++
+ms.prod: visual-studio-dev14
+ms.reviewer: na
+ms.suite: na
+ms.technology: 
+  - devlang-cpp
+ms.tgt_pltfrm: na
+ms.topic: reference
+ms.assetid: b04fe719-9690-4647-8840-70c352c3e5e5
+caps.latest.revision: 12
+robots: noindex,nofollow
+translation.priority.ht: 
+  - de-de
+  - ja-jp
+---
+# CMonthCalCtrl::IsCenturyView
+Indicates whether the current view of the current month calendar control is the century view.  
+  
+## Syntax  
+  
+```  
+BOOL IsCenturyView() const;  
+```  
+  
+## Return Value  
+ `true` if the current view is the century view; otherwise, `false`.  
+  
+## Remarks  
+ This method sends the [MCM_GETCURRENTVIEW](http://msdn.microsoft.com/library/windows/desktop/bb760955) message, which is described in the [!INCLUDE[winSDK](../vs140/includes/winSDK_md.md)]. If that message returns `MCMV_CENTURY`, this method returns `true`.  
+  
+## Requirements  
+ **Header:** afxdtctl.h  
+  
+ This control is supported in [!INCLUDE[windowsver](../vs140/includes/windowsver_md.md)] and later.  
+  
+ Additional requirements for this method are described in [Build Requirements for Vista Common Controls](../vs140/Build-Requirements-for-Windows-Vista-Common-Controls.md).  
+  
+## See Also  
+ [CMonthCalCtrl Class](../vs140/CMonthCalCtrl-Class.md)   
+ [Hierarchy Chart](../vs140/Hierarchy-Chart.md)   
+ [MCM_GETCURRENTVIEW](http://msdn.microsoft.com/library/windows/desktop/bb760955)   
+ [CMonthCalCtrl::GetCurrentView](../vs140/CMonthCalCtrl--GetCurrentView.md)

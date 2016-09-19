@@ -1,0 +1,64 @@
+---
+title: "System.Tuple&lt;&#39;T1,&#39;T2,&#39;T3,&#39;T4&gt; Constructor (F#)"
+ms.custom: na
+ms.date: 09/19/2016
+ms.devlang: 
+  - FSharp
+ms.prod: visual-studio-dev14
+ms.reviewer: na
+ms.suite: na
+ms.technology: 
+  - devlang-fsharp
+ms.tgt_pltfrm: na
+ms.topic: reference
+apiname: 
+  - Tuple.Tuple<'T1,'T2,'T3,'T4>
+apilocation: 
+  - FSharp.Core.dll
+apitype: Assembly
+ms.assetid: c0835ad3-401d-4002-a1bc-58f65dce270b
+caps.latest.revision: 21
+translation.priority.ht: 
+  - de-de
+  - ja-jp
+---
+# System.Tuple&lt;&#39;T1,&#39;T2,&#39;T3,&#39;T4&gt; Constructor (F#)
+**Namespace/Module Path**: System  
+  
+ **Assembly**: FSharp.Core (in FSharp.Core.dll)  
+  
+## Syntax  
+  
+```  
+// Signature:  
+new Tuple : 'T1 * 'T2 * 'T3 * 'T4 -> Tuple<'T1,'T2,'T3,'T4>  
+  
+// Usage:  
+new Tuple (, , , )  
+```  
+  
+#### Parameters  
+ Type: `'T1`  
+  
+ Type: `'T2`  
+  
+ Type: `'T3`  
+  
+ Type: `'T4`  
+  
+## Return Value  
+  
+## Remarks  
+ This API is provided for use only with the F# Core Library Versions that targets .NET Framework 2.0. If you are using .NET Framework 4, use the .NET Framework 4 API with the same name, <xref:System.Tuple`4.#ctor?qualifyHint=False>.  
+  
+## Platforms  
+ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2  
+  
+## Version Information  
+ **F# Core Library Versions**  
+  
+ Supported in: 2.0  
+  
+## See Also  
+ [System.Tuple<'T1,'T2,'T3,'T4> Class (F#)](../Topic/System.Tuple%3C'T1,'T2,'T3,'T4%3E%20Class%20\(F%23\).md)   
+ [System Namespace (F#)](../Topic/System%20Namespace%20\(F%23\).md)

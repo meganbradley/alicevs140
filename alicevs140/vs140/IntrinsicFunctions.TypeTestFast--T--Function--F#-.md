@@ -1,0 +1,62 @@
+---
+title: "IntrinsicFunctions.TypeTestFast&lt;&#39;T&gt; Function (F#)"
+ms.custom: na
+ms.date: 09/19/2016
+ms.devlang: 
+  - FSharp
+ms.prod: visual-studio-dev14
+ms.reviewer: na
+ms.suite: na
+ms.technology: 
+  - devlang-fsharp
+ms.tgt_pltfrm: na
+ms.topic: reference
+apilocation: 
+  - FSharp.Core.dll
+apitype: Assembly
+ms.assetid: e04d5e7e-4133-48bb-82ff-9fc184b72688
+caps.latest.revision: 12
+translation.priority.ht: 
+  - de-de
+  - ja-jp
+---
+# IntrinsicFunctions.TypeTestFast&lt;&#39;T&gt; Function (F#)
+A compiler intrinsic that implements the `:?` operator  
+  
+ **Namespace/Module Path:** Microsoft.FSharp.Core.LanguagePrimitives.IntrinsicFunctions  
+  
+ **Assembly:** FSharp.Core (in FSharp.Core.dll)  
+  
+## Syntax  
+  
+```  
+// Signature:  
+TypeTestFast : obj -> bool  
+  
+// Usage:  
+TypeTestFast source  
+```  
+  
+#### Parameters  
+ `source`  
+ Type: [obj](../Topic/Core.obj%20Type%20Abbreviation%20\(F%23\).md)  
+  
+ The object to test.  
+  
+## Return Value  
+ `true` if the type matches the specified type; otherwise `false`.  
+  
+## Remarks  
+ This function is for use by compiled F# code and should not be used directly.  
+  
+## Platforms  
+ Windows 8, Windows 7, Windows Server 2012, Windows Server 2008 R2  
+  
+## Version Information  
+ **F# Core Library Versions**  
+  
+ Supported in: 2.0, 4.0, Portable  
+  
+## See Also  
+ [LanguagePrimitives.IntrinsicFunctions Module (F#)](../vs140/LanguagePrimitives.IntrinsicFunctions-Module--F#-.md)   
+ [Microsoft.FSharp.Core.LanguagePrimitives Namespace (F#)](../Topic/Core.LanguagePrimitives%20Module%20\(F%23\).md)

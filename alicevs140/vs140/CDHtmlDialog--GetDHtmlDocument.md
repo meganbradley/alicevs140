@@ -1,0 +1,46 @@
+---
+title: "CDHtmlDialog::GetDHtmlDocument"
+ms.custom: na
+ms.date: 09/19/2016
+ms.devlang: 
+  - C++
+ms.prod: visual-studio-dev14
+ms.reviewer: na
+ms.suite: na
+ms.technology: 
+  - devlang-cpp
+ms.tgt_pltfrm: na
+ms.topic: reference
+ms.assetid: d7e8a1fa-558e-4bd3-b85f-212a02a80fc8
+caps.latest.revision: 12
+robots: noindex,nofollow
+translation.priority.ht: 
+  - de-de
+  - ja-jp
+---
+# CDHtmlDialog::GetDHtmlDocument
+Retrieves the [IHTMLDocument2](https://msdn.microsoft.com/en-us/library/aa752574.aspx) interface on the currently loaded HTML document.  
+  
+## Syntax  
+  
+```  
+  
+      HRESULT GetDHtmlDocument(  
+   IHTMLDocument2 **pphtmlDoc   
+);  
+```  
+  
+#### Parameters  
+ *\*\*pphtmlDoc*  
+ A pointer to a pointer to an HTML document.  
+  
+## Return Value  
+ A standard `HRESULT`. Returns `S_OK` if successful.  
+  
+## Requirements  
+ **Header:** afxdhtml.h  
+  
+## See Also  
+ [CDHtmlDialog Class](../vs140/CDHtmlDialog-Class.md)   
+ [Hierarchy Chart](../vs140/Hierarchy-Chart.md)   
+ [IHTMLDocument2](https://msdn.microsoft.com/en-us/library/aa752574.aspx)

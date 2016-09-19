@@ -1,0 +1,36 @@
+---
+title: "CMFCFilterChunkValueImpl::~CMFCFilterChunkValueImpl"
+ms.custom: na
+ms.date: 09/19/2016
+ms.devlang: 
+  - C++
+ms.prod: visual-studio-dev14
+ms.reviewer: na
+ms.suite: na
+ms.technology: 
+  - devlang-cpp
+ms.tgt_pltfrm: na
+ms.topic: reference
+ms.assetid: af79ce52-83c5-4561-8afd-b7f696eb4e76
+caps.latest.revision: 10
+robots: noindex,nofollow
+translation.priority.ht: 
+  - de-de
+  - ja-jp
+---
+# CMFCFilterChunkValueImpl::~CMFCFilterChunkValueImpl
+Destructs the object.  
+  
+## Syntax  
+  
+```  
+virtual ~CMFCFilterChunkValueImpl();  
+```  
+  
+## Remarks  
+  
+## Requirements  
+ **Header:** afxwin.h  
+  
+## See Also  
+ [CMFCFilterChunkValueImpl Class](../vs140/CMFCFilterChunkValueImpl-Class.md)

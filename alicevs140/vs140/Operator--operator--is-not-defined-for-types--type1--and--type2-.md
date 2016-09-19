@@ -1,0 +1,31 @@
+---
+title: "Operator &#39;operator&#39; is not defined for types &#39;type1&#39; and &#39;type2&#39;"
+ms.custom: na
+ms.date: 09/19/2016
+ms.prod: visual-studio-dev14
+ms.reviewer: na
+ms.suite: na
+ms.technology: 
+  - devlang-csharp
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.assetid: f6739344-eb13-4cea-a6d3-2125b77ee562
+caps.latest.revision: 6
+translation.priority.ht: 
+  - de-de
+  - ja-jp
+---
+# Operator &#39;operator&#39; is not defined for types &#39;type1&#39; and &#39;type2&#39;
+Operator 'operator' is not defined for types 'type1' and 'type2'. You can use the 'Value' property to get the string value of the first element of '<parentElement\>'.  
+  
+ An XML literal has been used in a binary or `Boolean` comparison.  
+  
+ **Error ID:** BC31195  
+  
+### To correct this error  
+  
+-   Use the `Value` property of the XML literal for the binary or `Boolean` comparison.  
+  
+## See Also  
+ [XML Literals](../Topic/XML%20Literals%20\(Visual%20Basic\).md)   
+ [XML in Visual Basic](../Topic/XML%20in%20Visual%20Basic.md)

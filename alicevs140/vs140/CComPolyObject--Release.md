@@ -1,0 +1,40 @@
+---
+title: "CComPolyObject::Release"
+ms.custom: na
+ms.date: 09/19/2016
+ms.devlang: 
+  - C++
+ms.prod: visual-studio-dev14
+ms.reviewer: na
+ms.suite: na
+ms.technology: 
+  - devlang-cpp
+ms.tgt_pltfrm: na
+ms.topic: reference
+ms.assetid: 1b240681-fb3b-45e3-ba84-42c0a1338151
+caps.latest.revision: 12
+robots: noindex,nofollow
+translation.priority.ht: 
+  - de-de
+  - ja-jp
+---
+# CComPolyObject::Release
+Decrements the reference count on the object.  
+  
+## Syntax  
+  
+```  
+  
+STDMETHOD_(ULONG, Release)( );  
+  
+```  
+  
+## Return Value  
+ In debug builds, **Release** returns a value that may be useful for diagnostics or testing. In nondebug builds, **Release** always returns 0.  
+  
+## Requirements  
+ **Header:** atlcom.h  
+  
+## See Also  
+ [CComPolyObject Class](../vs140/CComPolyObject-Class.md)   
+ [CComPolyObject::AddRef](../vs140/CComPolyObject--AddRef.md)

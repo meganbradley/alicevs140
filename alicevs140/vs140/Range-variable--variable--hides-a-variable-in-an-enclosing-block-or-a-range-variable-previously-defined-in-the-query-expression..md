@@ -1,0 +1,31 @@
+---
+title: "Range variable &lt;variable&gt; hides a variable in an enclosing block or a range variable previously defined in the query expression."
+ms.custom: na
+ms.date: 09/19/2016
+ms.prod: visual-studio-dev14
+ms.reviewer: na
+ms.suite: na
+ms.technology: 
+  - devlang-csharp
+ms.tgt_pltfrm: na
+ms.topic: article
+ms.assetid: 806d94c1-653f-40c0-b1c4-95661c76a392
+caps.latest.revision: 6
+translation.priority.ht: 
+  - de-de
+  - ja-jp
+---
+# Range variable &lt;variable&gt; hides a variable in an enclosing block or a range variable previously defined in the query expression.
+A range variable in a query has the same name as a variable previously defined within the same scope, or a range variable previously defined within the query.  
+  
+ **Error ID:** BC30978  
+  
+### To correct this error  
+  
+-   Ensure that all range variables in your query have unique names that do not duplicate existing variable names in the same scope.  
+  
+-   Enclose nested queries with duplicate control variable names in parentheses, separating the scope for each range variable.  
+  
+## See Also  
+ [Introduction to LINQ in Visual Basic](../Topic/Introduction%20to%20LINQ%20in%20Visual%20Basic.md)   
+ [LINQ in Visual Basic](../vs140/LINQ-in-Visual-Basic.md)

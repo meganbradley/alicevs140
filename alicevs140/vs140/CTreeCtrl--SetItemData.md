@@ -1,0 +1,53 @@
+---
+title: "CTreeCtrl::SetItemData"
+ms.custom: na
+ms.date: 09/19/2016
+ms.devlang: 
+  - C++
+ms.prod: visual-studio-dev14
+ms.reviewer: na
+ms.suite: na
+ms.technology: 
+  - devlang-cpp
+ms.tgt_pltfrm: na
+ms.topic: reference
+ms.assetid: 3f1217fb-6613-4e33-b9af-3e9dac211791
+caps.latest.revision: 14
+robots: noindex,nofollow
+translation.priority.ht: 
+  - de-de
+  - ja-jp
+---
+# CTreeCtrl::SetItemData
+Call this function to set the 32-bit application-specific value associated with the specified item.  
+  
+## Syntax  
+  
+```  
+  
+      BOOL SetItemData(  
+   HTREEITEM hItem,  
+   DWORD_PTR dwData   
+);  
+```  
+  
+#### Parameters  
+ `hItem`  
+ Handle of the item whose data is to be retrieved.  
+  
+ `dwData`  
+ A 32-bit application-specific value associated with the item specified by `hItem`.  
+  
+## Return Value  
+ Nonzero if successful; otherwise 0.  
+  
+## Example  
+ [!CODE [NVC_MFC_CTreeCtrl#33](../CodeSnippet/VS_Snippets_Cpp/NVC_MFC_CTreeCtrl#33)]  
+  
+## Requirements  
+ **Header:** afxcmn.h  
+  
+## See Also  
+ [CTreeCtrl Class](../vs140/CTreeCtrl-Class.md)   
+ [Hierarchy Chart](../vs140/Hierarchy-Chart.md)   
+ [CTreeCtrl::GetItemData](../vs140/CTreeCtrl--GetItemData.md)

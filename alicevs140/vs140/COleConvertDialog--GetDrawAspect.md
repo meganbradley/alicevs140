@@ -1,0 +1,50 @@
+---
+title: "COleConvertDialog::GetDrawAspect"
+ms.custom: na
+ms.date: 09/19/2016
+ms.devlang: 
+  - C++
+ms.prod: visual-studio-dev14
+ms.reviewer: na
+ms.suite: na
+ms.technology: 
+  - devlang-cpp
+ms.tgt_pltfrm: na
+ms.topic: reference
+ms.assetid: dec03e40-53f1-4c4a-85a2-87da0e520a0f
+caps.latest.revision: 13
+robots: noindex,nofollow
+translation.priority.ht: 
+  - de-de
+  - ja-jp
+---
+# COleConvertDialog::GetDrawAspect
+Call this function to determine whether the user chose to display the selected item as an icon.  
+  
+## Syntax  
+  
+```  
+  
+DVASPECT GetDrawAspect( ) const;  
+```  
+  
+## Return Value  
+ The method needed to render the object.  
+  
+-   `DVASPECT_CONTENT` Returned if the Display As Icon check box was not checked.  
+  
+-   `DVASPECT_ICON` Returned if the Display As Icon check box was checked.  
+  
+## Remarks  
+ Call this function only after [DoModal](../vs140/COleConvertDialog--DoModal.md) returns **IDOK**.  
+  
+ For more information on drawing aspect, see the [FORMATETC](http://msdn.microsoft.com/library/windows/desktop/ms682177) data structure in the [!INCLUDE[winSDK](../vs140/includes/winSDK_md.md)].  
+  
+## Requirements  
+ **Header:** afxodlgs.h  
+  
+## See Also  
+ [COleConvertDialog Class](../vs140/COleConvertDialog-Class.md)   
+ [Hierarchy Chart](../vs140/Hierarchy-Chart.md)   
+ [COleConvertDialog::DoModal](../vs140/COleConvertDialog--DoModal.md)   
+ [COleConvertDialog::COleConvertDialog](../vs140/COleConvertDialog--COleConvertDialog.md)
